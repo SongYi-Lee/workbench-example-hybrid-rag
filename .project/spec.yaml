@@ -117,7 +117,7 @@ execution:
   - variable: NVCF_RUN_KEY
     description: NVCF Run Key for Cloud Inference
   - variable: HUGGING_FACE_HUB_TOKEN
-    description: 모델 가중치를 local로 복제하기 위한 HF Token
+    description: 모델 가중치를 local로 복제하기위한 HF Token
   mounts:
   - type: project
     target: /project/
